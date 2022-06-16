@@ -35,3 +35,9 @@
 - exit: stop metasploit
 
 
+## Use of the search command
+
+- search <key>
+```
+msf6> search ftp
+```
