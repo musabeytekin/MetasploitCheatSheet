@@ -66,3 +66,24 @@ msf6> search ftp check:no
 msf6> search check:yes
 ```
 
+## Use command
+
+- use -modulename or modul number- 
+```
+msf6> use 114
+msf6> use exploit/windows/ftp/sasser_ftpd_port
+```
+
+## Options Command
+-  show module options after use module
+```
+msf6> use 114
+msf6> options
+```
+
+## Show command
+- Payloads that can be used in the module.
+```
+msf6 auxiliary(admin/http/gitstack_rest) > show payloads (or others)
+```
+
