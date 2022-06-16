@@ -17,6 +17,6 @@
 - sessions : show the received shell. passes between shells
 - jobs : show the shells in backgorund
 - back : back the selected modules 
-- exit stop metasploit
+- exit: stop metasploit
 
 
