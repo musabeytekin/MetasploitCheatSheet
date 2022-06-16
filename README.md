@@ -37,7 +37,32 @@
 
 ## Use of the search command
 
-- search <key>
+- search -key- : lists modules related to the given key
 ```
 msf6> search ftp
 ```
+
+- search -modulename- rank:good(or others) : lists modules related to the given key and given rank
+```
+msf6> search ftp rank:good
+```
+
+- search -modulename- cve:2019(or others) : lists modules related to the given key and given cve
+```
+msf6> search ftp cve:2018
+msf6> search cve:2018
+
+```
+
+- search -modulename- type:excellent(or others) : lists modules related to the given key and given type
+```
+msf6> search ftp type:good
+msf6> search type:good
+```
+
+- search -modulename- check:yes(or no) : lists modules related to the given key and given check type
+```
+msf6> search ftp check:no
+msf6> search check:yes
+```
+
